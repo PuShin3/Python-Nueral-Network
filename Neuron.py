@@ -45,5 +45,4 @@ class Neuron:
 
         for i in range(len(prevLayer)):
             # value * weight
-            self.outValue += prevLayer[i].outValue * \
-                prevLayer[i].weight[self.id].weight
+            self.outValue += prevLayer[i].outValue * prevLayer[i].weight[self.id].weight
