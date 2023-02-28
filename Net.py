@@ -2,8 +2,6 @@ from Neuron import Neuron, Layer
 from typing import List
 
 # Class functions without definition
-
-
 class Net:
     def __init__(self, size: List[int]) -> None: ...
     def FeedForward(self, inputVal: List[float]) -> None: ...
